@@ -1,6 +1,6 @@
 # 🎓 CUDA-Q Interactive Widget Catalog
 
-## Visual Tools for Quantum Education
+## Interactive Tools for Quantum Computing Education
 
 Welcome to the **CUDA-Q Interactive Widget Catalog**. This collection offers interactive HTML visualizations designed to demonstrate core quantum computing concepts.
 
