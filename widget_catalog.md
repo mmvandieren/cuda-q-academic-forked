@@ -4,10 +4,10 @@
 
 Welcome to the **CUDA-Q Interactive Widget Catalog**. This collection offers interactive HTML visualizations designed to demonstrate core quantum computing concepts.
 
-These widgets are **general-purpose**. While they may originate from specific domain examples (like Chemistry or Finance), they demonstrate universal mechanics—such as superposition, optimization, and unitary evolution—that are applicable across Physics, Computer Science, and Mathematics.
+These widgets are general-purpose. While they may originate from specific domain examples (like Chemistry or Finance), they demonstrate universal mechanics—such as superposition, optimization, and unitary evolution—that are applicable across Physics, Computer Science, and Mathematics.
 
 ### Adapt these tools for your classroom
-These widgets are open source. We encourage you to not only use them as-is but to **adapt the code**.
+These widgets are open source. We encourage you to not only use them as-is but to adapt the code.
 * **Launch:** Click to view the interactive widget in your browser immediately.
 * **Source:** Click to view the HTML source code on GitHub.
 * **Context:** Click the "Original Module" link to see how this widget was used in a full lesson plan.
@@ -19,8 +19,8 @@ These widgets are open source. We encourage you to not only use them as-is but t
 
 | Widget | Description | Original Module (Context) | Links |
 | :--- | :--- | :--- | :--- |
-| **Bloch Sphere Visualizer** | Interactive 3D representation of a qubit state ($\psi$). Allows users to visualize state vectors, phase changes, and the geometric difference between bit-flips and phase-flips. | [Applications to Finance](https://github.com/NVIDIA/cuda-q-academic/tree/main/quantum-applications-to-finance) | [🚀 Launch](https://nvidia.github.io/cuda-q-academic/quantum-applications-to-finance/images/bloch_sphere_visualization.html) <br> [📄 Source](https://github.com/NVIDIA/cuda-q-academic/blob/widgets-as-html/quantum-applications-to-finance/images/bloch_sphere_visualization.html) |
-| **Quantum Coin Flip** | A comparative visualization of a Classical Coin (deterministic/random) versus a Quantum Coin. Demonstrates the Hadamard gate, superposition, and interference probabilities. | [Applications to Finance](https://github.com/NVIDIA/cuda-q-academic/tree/main/quantum-applications-to-finance) | [🚀 Launch](https://nvidia.github.io/cuda-q-academic/quantum-applications-to-finance/images/quantum_coin_widget.html) <br> [📄 Source](https://github.com/NVIDIA/cuda-q-academic/blob/widgets-as-html/quantum-applications-to-finance/images/quantum_coin_widget.html) |
+| **Bloch Sphere Visualizer** | Interactive 3D representation of a qubit state ($|\psi>$). Allows users to visualize state vectors, phase changes, and the geometric difference between bit-flips and phase-flips. | [Quick Start to Quantum Computing](https://github.com/NVIDIA/cuda-q-academic/tree/main/quick-start-to-quantum) | [🚀 Launch](https://nvidia.github.io/cuda-q-academic/quantum-applications-to-finance/images/bloch_sphere_visualization.html) <br> [📄 Source](https://github.com/NVIDIA/cuda-q-academic/blob/widgets-as-html/quantum-applications-to-finance/images/bloch_sphere_visualization.html) |
+| **Quantum Coin Flip** | A comparative visualization of a Classical Coin (bit) versus a Quantum Coin (qubit). Demonstrates the Hadamard gate, superposition, phase, and probability amplitudes. | [Applications to Finance](https://github.com/NVIDIA/cuda-q-academic/tree/main/quantum-applications-to-finance) | [🚀 Launch](https://nvidia.github.io/cuda-q-academic/quantum-applications-to-finance/images/quantum_coin_widget.html) <br> [📄 Source](https://github.com/NVIDIA/cuda-q-academic/blob/widgets-as-html/quantum-applications-to-finance/images/quantum_coin_widget.html) |
 
 ---
 
@@ -30,7 +30,7 @@ These widgets are open source. We encourage you to not only use them as-is but t
 | Widget | Description | Original Module (Context) | Links |
 | :--- | :--- | :--- | :--- |
 | **Unitary Matrix Visualizer** | Interactive visualization of Unitary matrices. Demonstrates how quantum gates operate as rotations that preserve probability norms in a vector space. | [AI for Quantum](https://github.com/NVIDIA/cuda-q-academic/tree/main/ai-for-quantum) | [🚀 Launch](https://nvidia.github.io/cuda-q-academic/ai-for-quantum/widgets/unitary_widget.html) <br> [📄 Source](https://github.com/NVIDIA/cuda-q-academic/blob/widgets-as-html/ai-for-quantum/widgets/unitary_widget.html) |
-| **Gate Logic Widget** | An interactive "sandbox" for quantum logic gates. Users can visualize the specific inputs and outputs of various gates to understand reversible computing logic. | [Applications to Finance](https://github.com/NVIDIA/cuda-q-academic/tree/main/quantum-applications-to-finance) | [🚀 Launch](https://nvidia.github.io/cuda-q-academic/quantum-applications-to-finance/images/gate-widget.html) <br> [📄 Source](https://github.com/NVIDIA/cuda-q-academic/blob/widgets-as-html/quantum-applications-to-finance/images/gate-widget.html) |
+| **Gate Logic Widget** | An interactive "sandbox" for quantum logic gates. Users can visualize the specific inputs and outputs of various gates to understand reversible computing logic. | [Quick Start to Quantum Computing](https://github.com/NVIDIA/cuda-q-academic/tree/main/quick-start-to-quantum) | [🚀 Launch](https://nvidia.github.io/cuda-q-academic/quantum-applications-to-finance/images/gate-widget.html) <br> [📄 Source](https://github.com/NVIDIA/cuda-q-academic/blob/widgets-as-html/quantum-applications-to-finance/images/gate-widget.html) |
 
 ---
 
@@ -39,8 +39,8 @@ These widgets are open source. We encourage you to not only use them as-is but t
 
 | Widget | Description | Original Module (Context) | Links |
 | :--- | :--- | :--- | :--- |
-| **1D Random Walk** | Visualizes a quantum particle moving in 1D space, comparing the probability distribution of a classical random walk against a quantum walk. | [Applications to Finance](https://github.com/NVIDIA/cuda-q-academic/tree/main/quantum-applications-to-finance) | [🚀 Launch](https://nvidia.github.io/cuda-q-academic/quantum-applications-to-finance/images/random_walk.html) <br> [📄 Source](https://github.com/NVIDIA/cuda-q-academic/blob/widgets-as-html/quantum-applications-to-finance/images/random_walk.html) |
-| **Steady-State / Spatial Search** | A variation of the quantum walk demonstrating graph traversal properties, relevant for understanding spatial search algorithms and steady-state behaviors. | [Applications to Finance](https://github.com/NVIDIA/cuda-q-academic/tree/main/quantum-applications-to-finance) | [🚀 Launch](https://nvidia.github.io/cuda-q-academic/quantum-applications-to-finance/images/ss-random-walk.html) <br> [📄 Source](https://github.com/NVIDIA/cuda-q-academic/blob/widgets-as-html/quantum-applications-to-finance/images/ss-random-walk.html) |
+| **Classical Random Walk** | Visualizes a 1D walk where the walker's movement is determined by a coin flip. | [Applications to Finance](https://github.com/NVIDIA/cuda-q-academic/tree/main/quantum-applications-to-finance) | [🚀 Launch](https://nvidia.github.io/cuda-q-academic/quantum-applications-to-finance/images/random_walk.html) <br> [📄 Source](https://github.com/NVIDIA/cuda-q-academic/blob/widgets-as-html/quantum-applications-to-finance/images/random_walk.html) |
+| **Split Step Random Walk** | A variation of the classical random walk in which each step is split into two decisions: move left or stay put and then move right or stay put. | [Quick Start to Quantum Computing](https://github.com/NVIDIA/cuda-q-academic/tree/main/quick-start-to-quantum) | [🚀 Launch](https://nvidia.github.io/cuda-q-academic/quantum-applications-to-finance/images/ss-random-walk.html) <br> [📄 Source](https://github.com/NVIDIA/cuda-q-academic/blob/widgets-as-html/quantum-applications-to-finance/images/ss-random-walk.html) |
 | **Diffusion Model** | Visualizes the diffusion process. Demonstrates how noise is added or removed from data, a key concept in both thermodynamics and modern generative AI models. | [AI for Quantum](https://github.com/NVIDIA/cuda-q-academic/tree/main/ai-for-quantum) | [🚀 Launch](https://nvidia.github.io/cuda-q-academic/ai-for-quantum/widgets/diffusion.html) <br> [📄 Source](https://github.com/NVIDIA/cuda-q-academic/blob/widgets-as-html/ai-for-quantum/widgets/diffusion.html) |
 
 ---
