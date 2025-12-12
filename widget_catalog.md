@@ -35,7 +35,7 @@ These widgets are open source. We encourage you to not only use them as-is but t
 ---
 
 ## 3. Stochastic Processes & Search Algorithms
-*Visualizations of random walks, diffusion, and graph traversal.*
+*Visualizations of random walks and diffusion.*
 
 | Widget | Description | Original Module (Context) | Links |
 | :--- | :--- | :--- | :--- |
